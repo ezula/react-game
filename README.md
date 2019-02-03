@@ -1,3 +1,3 @@
 # react-game
 
-Simple test react game using html5 canvas.
+A simple game using react framework and html5 canvas.
