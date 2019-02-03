@@ -62,12 +62,12 @@ export default class Canvas extends Component {
             ctx.fillStyle = even ? '#007f00' : '#009900';
             ctx.fillRect(cX,cY, rectSize, rectSize);
         } else {
+
             ctx.beginPath();
-            ctx.arc(cX + (rectSize / 2), cY + (rectSize / 2), 18, 0, 2 * Math.PI);
             ctx.fillStyle = '#FFF';
+            ctx.arc(cX + (rectSize / 2), cY + (rectSize / 2), 18, 0, 2 * Math.PI);
+            ctx.fill();
         }
-        
-        ctx.fill();
     }
 
     componentDidMount() {

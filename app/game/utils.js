@@ -1,6 +1,6 @@
 /* Util class with good to have functions. */
 
-export default function create2DArray(rows, cols) {
+const create2DArray = (rows, cols) => {
     const arr = [];
 
     for (let i=0;i<rows;i++) {
@@ -12,3 +12,5 @@ export default function create2DArray(rows, cols) {
     
     return arr;
 };
+
+export default create2DArray;
